@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Nanocoma",
+  "description": "Extension to collect data points for aggregation and visualization with the Nanocoma dashboard",
+  "version": "1.0",
+
+  "permissions": [
+    "https://nanocoma.com/",
+    "https://api.nanocoma.com/"
+  ],
+  "browser_action": {
+    "default_icon": "nanocoma.png",
+    "default_popup": "nanocoma-config.html"
+  }
+}
